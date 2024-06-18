@@ -10,6 +10,7 @@ class Mundo {
         this.tiempoTotal = tiempoTotal;
     }
 
+    @SuppressWarnings("resource")
     public void simular() {
         boolean centroAbierto = true;
         int minutoActual = 0;
